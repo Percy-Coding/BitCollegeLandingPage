@@ -3,6 +3,7 @@
 
 html,body{
     scroll-behavior: smooth;
+    width: 100%;
 }
 
 *{
@@ -14,40 +15,63 @@ html,body{
     
 }
 
-.nav-item a:hover { color: rgb(165, 119, 243) !important; }
 
+.navbar-bit .nav-link{
+    color: #FFF !important;
+}
 
-.border-3{
-    border-width: 3px !important;
+.navbar-bit .nav-link:hover{
+    color: #00ffc5 !important;
+}
+
+.bg-bit{
+    background-color: #1b1464;
 }
 
 .img-box{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 15vw;
+    height: 20vmin;
+    cursor: pointer;
+    min-width: 150px;
 }
+
 
 .btn-group-vertical{
-    width: 15vw;
+    width: 30vmin;
+    min-width: 150px;
 }
 
-.mx-6{
-    padding: 0px 150px;
-}
 
 .iwt{
     display: block;
 }
 
 .iwt > .fa{
-    color: green !important;
+    color: #00ffc5 !important;
 }
 
 
 footer{
     width: 100%;
     background-color: black;
-    padding: 3% 3% 3% 5%;
+    padding: 3% 3% 3% 3%;
     color: #FFF;
+}
+
+#inicio{
+    background: url(../Resources/Fondo1.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+#inicio p{
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-left: 18vw;
+    margin-right: 18vw;
+}
+
+footer a{
+    color:#00ffc5;
 }
