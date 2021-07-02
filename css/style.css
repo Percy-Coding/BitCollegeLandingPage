@@ -25,7 +25,8 @@ html,body{
 }
 
 .bg-bit{
-    background-color: #1b1464;
+    /*background-color: #1b1464;*/
+    background-color: black;
 }
 
 .img-box{
